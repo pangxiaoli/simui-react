@@ -1,0 +1,33 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+node_modules
+/dist
+/build
+.VSCodeCounter/
+
+/esm
+/lib
+
+# compressed files
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
